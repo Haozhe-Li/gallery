@@ -155,17 +155,5 @@
 
 			</script>
 
-			<!--redirecting pages-->
-			<script type="text/javascript">
-
-				var language = localStorage.getItem('locale') || window.navigator.language.toLowerCase() || 'en'
-				localStorage.setItem('locale', language)
-				if (language.indexOf("zh-") !== -1) {
-					window.location = 'zh-cn.html'
-				}  else {
-					window.location = 'en-us.html'
-				}
-			</script>
-
 	</body>
 </html>
